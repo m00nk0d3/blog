@@ -12,17 +12,15 @@ app.set("view engine", "ejs");
 app.get("/", (req, res) => {
   const articles = [
     {
-      title: "test",
-      description: "test",
-      markdown: "test",
+      title: "Test article #1",
+      description: "testing the description on article #1",
       createdAt: new Date(),
     },
     {
-      title: "test2",
-      description: "test2",
-      markdown: "test2",
+      title: "Test article #2",
+      description: "this is the description on article #2",
       createdAt: new Date(),
     },
   ];
-  res.render("index", { articles: articles });
+  res.render("articles/index", { articles: articles });
 });
