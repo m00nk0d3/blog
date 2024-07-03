@@ -16,11 +16,15 @@ git clone https://github.com/m00nk0d3/blog.git
 ```
 cd blog
 ```
-3. run the project with the following command:
+3. Make sure you have mongoDB installed on your system and nodejs and run:
+```
+npm i
+```
+4. run the project with the following command:
 ```
 npm run devStart
 ```
-4. in your browser goto:
+5. in your browser goto:
 ```
 localhost:5500
 ```
