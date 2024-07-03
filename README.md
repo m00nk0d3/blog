@@ -1,4 +1,4 @@
-### simple blog app
+# Simple blog app
 this is a simple blog app I created to introduce myself to mongoDB and nodejs
 
 Technologies used:
