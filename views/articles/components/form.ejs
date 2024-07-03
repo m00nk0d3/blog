@@ -1,10 +1,10 @@
 <div class="form-group">
    <label for="title" class="mb-2">Title</label>
-   <input type="text" required name="title" id="title" class="form-control mb-4" id="title">
+   <input value="<%= article.title %>" type="text" required name="title" id="title" class="form-control mb-4">
    <label for="description" class="mb-2">Description</label>
-   <textarea required id="description" class="form-control mb-4" id="description"></textarea>
+   <textarea required id="description" class="form-control mb-4" name="description"><%= article.description %></textarea>
    <label for="markdown" class="mb-2">Markdown</label>
-   <textarea required id="markdown" class="form-control mb-4" id="markdown"></textarea>
+   <textarea required id="markdown" class="form-control mb-4" name="markdown"><%= article.markdown %></textarea>
 </div>
 <a href="/" class="btn btn-secondary">Cancel</a>
 <button type="submit" class="btn btn-primary">Submit</button>
